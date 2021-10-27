@@ -10,7 +10,7 @@ int main()
     scanf("%d",&end);
     printf("All The Prime Numbers From %d To %d are : \n",first,end);
     // Find All Prime Numbers Between First Number To The Last Number.
-    for (first=2; first <= end; first++)
+    for (first; first <= end; first++)
     {
         isprime=1;
 
